@@ -1,5 +1,7 @@
 # sh-gh-repo-delete
 
+githubから不要なリポジトリを一括で削除するためのshellスクリプトです。(一部手動)
+
 ## 必要なもの
 - github cli
 - zshかbash
