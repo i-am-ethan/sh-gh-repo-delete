@@ -2,6 +2,9 @@
 
 githubから不要なリポジトリを一括で削除するためのshellスクリプトです。(一部手動)
 
+<img height="100px" alt="gif" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzFhYjBpMnppYzNxbWZodGZ5ZWdvN2Zqcjgxem03eDVkdDVkeG9qNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eZgsgEZYd0L4IT8069/giphy.giff">
+
+
 ## 必要なもの
 - github cli
 - zshかbash
