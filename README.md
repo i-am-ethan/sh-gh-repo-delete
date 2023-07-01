@@ -21,7 +21,7 @@ githubから不要なリポジトリを一括で削除するためのshellスク
 削除は自己責任でお願いします
 
 ## 参考にした記事
-ありがとうございました！！
+ありがとうございました！！  
 https://dev.classmethod.jp/articles/git-hub-repo-delete/
 
 ## github cliでrepoの一覧を取得する
@@ -32,7 +32,7 @@ gh repo list --public #publicを取得
 gh repo list --private #privateを取得
 ```
 ## 一覧で取得したusername/repoをvimコマンドで加工する
-1. 先ほど取得したrepositoryの一覧をrepos.txt(なんでも良い)に貼り付けます。
+1. 先ほど取得したrepositoryの一覧をrepos.txt(なんでも良い)に貼り付けます。  
 例えば以下のようになります。
 ```
 i-am-ethan/socket                                           public        Oct 14, 2020
@@ -51,14 +51,14 @@ i-am-ethan/threejs-gltf20200910                             public        Sep 10
 i-am-ethan/8thwall-pra                                      public        Sep  8, 2020
 ```
 
-2. vimコマンドでリポジトリ名だけ取得する
-repos.txtファイルをvimで開いた状態で以下のコマンドを実行
+2. vimコマンドでリポジトリ名だけ取得する  
+repos.txtファイルをvimで開いた状態で以下のコマンドを実行  
 escを押して、
 ```
 :%s/.*\/\([^ \t]\+\).*/\1/g
 ```
 
-3. リポジトリ一覧が抽出できます
+3. リポジトリ一覧が抽出できます  
 先ほどの例だと以下のように抽出可能です。
 ```
 socket
