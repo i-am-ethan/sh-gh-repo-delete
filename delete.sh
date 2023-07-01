@@ -7,5 +7,11 @@ do
   gh repo delete --yes $reponame
   echo "Delete $reponame"
 done << EOF
-sample_app
+animal-quiz
+useSummarizeAPI
+setTimeout
+setINterval_decimals
+setInterval-and-randomObj
+css-absolute
+timer-js
 EOF
