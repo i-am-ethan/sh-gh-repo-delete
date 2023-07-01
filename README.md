@@ -11,6 +11,14 @@
 4. `zsh delete.sh`を実行
 5. 自分のusernameを入力する
 
+## github cliでrepoの一覧を取得する
+```zsh
+gh repo list #list取得(default30個まで)
+gh repo list -L 100 #取得するlistの数を設定
+gh repo list --public #publicを取得
+gh repo list --private #privateを取得
+```
+
 ## 注意点
 削除は自己責任でお願いします
 
